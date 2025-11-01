@@ -3,73 +3,185 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Ashu Joshi — Video Editor & Creator</title>
-  <meta name="description" content="Ashu Joshi — Video editor & reels creator. Check my featured edits, contact for collabs and commissions." />
-  <!-- Social preview (replace OG URL after you deploy) -->
+  <title>Ashu Joshi — Video Editor & Visual Storyteller</title>
+  <meta name="description" content="Ashu Joshi — Video Editor | Visual Storyteller. Portfolio of cinematic edits, reels and collabs." />
   <meta property="og:title" content="Ashu Joshi — Video Editor" />
-  <meta property="og:description" content="Video Editor & Reels Creator — I turn clips into cinematic stories." />
+  <meta property="og:description" content="Video Editor & Visual Storyteller — cinematic reels & short edits." />
   <meta property="og:image" content="assets/preview.jpg" />
-  <meta property="og:url" content="https://YOUR_USERNAME.github.io/" />
+  <meta property="og:url" content="https://ashujoshi.github.io/" />
   <link rel="icon" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Poppins:wght@600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="hero">
-    <div class="container">
-      <img class="avatar" src="assets/avatar.jpg" alt="Ashu Joshi avatar (replace with your image)" />
-      <h1>Ashu Joshi</h1>
-      <p class="tagline">Video Editor & Reels Creator — I turn clips into cinematic stories using CapCut & AI tools 🎬✨</p>
-      <div class="cta">
-        <a href="#works" class="btn">See My Work</a>
-        <a href="https://instagram.com/anshu._.joshii" target="_blank" rel="noopener" class="btn outline">Instagram</a>
+  <div class="page-bg"></div>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <div class="logo-mark" aria-hidden></div>
+        <div class="brand-text">
+          <span class="name">Ashu Joshi</span>
+          <span class="role">Video Editor · Visual Storyteller</span>
+        </div>
       </div>
+
+      <nav class="nav-links">
+        <a href="#works">Works</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn-outline">Contact</a>
+      </nav>
     </div>
   </header>
 
   <main>
-    <section id="about" class="section container">
-      <h2>About Me</h2>
-      <p>Hi! I'm Ashu — a passionate video editor making reels and short edits that grab attention. I specialize in fast cuts, transitions and using AI tricks to create viral-ready content. Open for collabs & commission work.</p>
+    <!-- HERO -->
+    <section class="hero container" id="home">
+      <div class="hero-inner">
+        <div class="hero-left">
+          <h1 class="headline">
+            I turn raw clips into <span class="accent">cinematic stories</span>
+          </h1>
+          <p class="subhead">Video Editor · Reels Creator · CapCut & AI tools expert</p>
+          <div class="hero-cta">
+            <a href="#works" class="btn-primary">View Featured Works</a>
+            <a href="https://instagram.com/anshu._.joshii" target="_blank" rel="noopener" class="btn-ghost">Instagram</a>
+          </div>
+          <div class="kudos">
+            <span>Available for collabs & commissions</span>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="profile-card">
+            <img src="assets/avatar.jpg" alt="Ashu Joshi" class="avatar" />
+            <div class="profile-info">
+              <h3>Ashu Joshi</h3>
+              <p>Video Editor · Visual Storyteller</p>
+              <div class="profile-links">
+                <a href="mailto:ashujoshi1711@gmail.com">ashujoshi1711@gmail.com</a>
+                <a href="https://instagram.com/anshu._.joshii" target="_blank" rel="noopener">@anshu._.joshii</a>
+              </div>
+            </div>
+          </div>
+          <div class="hero-preview" aria-hidden>
+            <!-- Decorative preview — replace thumbs below in assets -->
+            <div class="preview-thumb" style="background-image:url('assets/thumb1.jpg')"></div>
+            <div class="preview-thumb" style="background-image:url('assets/thumb2.jpg')"></div>
+          </div>
+        </div>
+      </div>
     </section>
 
+    <!-- WORKS -->
     <section id="works" class="section container">
-      <h2>Featured Edits</h2>
-      <div class="grid">
-        <!-- Replace href and img src with your real video/link and thumbnail -->
-        <div class="card">
-          <a href="https://www.instagram.com/p/REPLACE_LINK1/" target="_blank" rel="noopener">
-            <img src="assets/thumb1.jpg" alt="Edit 1"/>
-            <h3>Featured Edit 1</h3>
-          </a>
-        </div>
+      <h2 class="section-title">Featured Works</h2>
+      <p class="section-sub">Select edits — click to open (Instagram / YouTube links)</p>
 
-        <div class="card">
-          <a href="https://www.instagram.com/p/REPLACE_LINK2/" target="_blank" rel="noopener">
-            <img src="assets/thumb2.jpg" alt="Edit 2"/>
-            <h3>Featured Edit 2</h3>
+      <div class="works-grid" id="worksGrid">
+        <!-- Card template: replace href and images with your real links -->
+        <article class="work-card">
+          <a href="https://www.instagram.com/p/REPLACE_LINK1/" target="_blank" rel="noopener">
+            <div class="thumb" style="background-image:url('assets/thumb1.jpg')"></div>
+            <div class="meta">
+              <h3>Reel — Energetic Cut</h3>
+              <p class="meta-sub">Transitions · Color grade · Beat sync</p>
+            </div>
           </a>
-        </div>
+        </article>
+
+        <article class="work-card">
+          <a href="https://www.youtube.com/watch?v=REPLACE_VIDEO_ID" target="_blank" rel="noopener">
+            <div class="thumb" style="background-image:url('assets/thumb2.jpg')"></div>
+            <div class="meta">
+              <h3>Short Edit — Cinematic</h3>
+              <p class="meta-sub">Cinematic LUT · Slow-mo · VFX touch</p>
+            </div>
+          </a>
+        </article>
+
+        <article class="work-card">
+          <a href="https://www.instagram.com/p/REPLACE_LINK3/" target="_blank" rel="noopener">
+            <div class="thumb" style="background-image:url('assets/thumb3.jpg')"></div>
+            <div class="meta">
+              <h3>Reel — Viral Cut</h3>
+              <p class="meta-sub">Hook-first · Viral format</p>
+            </div>
+          </a>
+        </article>
 
         <!-- Add more cards as needed -->
       </div>
-      <p class="note">Tip: Replace the above sample links with your Instagram reel links or YouTube links. For YouTube use `https://www.youtube.com/watch?v=VIDEO_ID`.</p>
     </section>
 
+    <!-- ABOUT -->
+    <section id="about" class="section container">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">About Me</h2>
+          <p>I’m a passionate video editor focused on creating short-form content and cinematic edits that perform well on social platforms. I specialize in fast-paced cuts, smooth transitions, creative color grading, and using AI-assisted tools to speed up workflows while keeping the craft cinematic.</p>
+          <ul class="skills">
+            <li>CapCut · Premiere Pro </li>
+            <li>Transitions & quick cuts</li>
+            <li>Color grading & cinematic LUTs</li>
+            <li>AI tools for editing & motion effects</li>
+          </ul>
+          <div class="about-cta">
+            <a class="btn-primary" href="#contact">Hire / Collab</a>
+            <a class="btn-ghost" href="assets/portfolio.pdf" target="_blank">Download CV</a>
+          </div>
+        </div>
+
+        <div class="about-media">
+          <div class="card-glass">
+            <h4>What I deliver</h4>
+            <p>Fast turnaround, high engagement edits, and ready-to-post assets — thumbnails & captions included on request.</p>
+            <div class="metrics">
+              <div><strong>50+</strong><span>Edits</span></div>
+              <div><strong>10k+</strong><span>Reach (avg)</span></div>
+              <div><strong>3</strong><span>Special tools</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
     <section id="contact" class="section container">
-      <h2>Contact</h2>
-      <p>For collabs / commissions: <a href="mailto:ashujoshi1711@gmail.com">ashujoshi1711@gmail.com</a></p>
-      <p>Or DM on Instagram: <a href="https://instagram.com/anshu._.joshii" target="_blank">@anshu._.joshii</a></p>
+      <h2 class="section-title">Contact</h2>
+      <p class="section-sub">Available for client work, collabs, and commissions. DM on Instagram or email me.</p>
+
+      <div class="contact-grid">
+        <div class="contact-card card-glass">
+          <h3>Get in touch</h3>
+          <p>Email: <a href="mailto:ashujoshi1711@gmail.com">ashujoshi1711@gmail.com</a></p>
+          <p>Instagram: <a href="https://instagram.com/anshu._.joshii" target="_blank" rel="noopener">@anshu._.joshii</a></p>
+          <a class="btn-primary" href="mailto:ashujoshi1711@gmail.com">Email me</a>
+        </div>
+
+        <form class="contact-form card-glass" onsubmit="handleContact(event)">
+          <label><span>Name</span><input id="name" required placeholder="Your name" /></label>
+          <label><span>Message</span><textarea id="message" rows="4" required placeholder="Tell me about your project"></textarea></label>
+          <div class="form-actions">
+            <button type="submit" class="btn-primary">Send Message</button>
+            <button type="button" class="btn-ghost" onclick="copyEmail()">Copy Email</button>
+          </div>
+          <p class="form-note">This form opens your email client — or copy email to DM directly on Instagram.</p>
+        </form>
+      </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="container">
-      <p>© <span id="year"></span> Ashu Joshi — Portfolio</p>
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Ashu Joshi · Designed with 💙 by Aaru</p>
+      <div class="social">
+        <a href="https://instagram.com/anshu._.joshii" target="_blank" rel="noopener">Instagram</a>
+      </div>
     </div>
   </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
