@@ -3,181 +3,247 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>ASHU JOSHI — Video Editor & Visual Storyteller</title>
-  <meta name="description" content="Ashu Joshi — Video Editor | Visual Storyteller. Portfolio of cinematic edits, reels and collabs." />
-  <meta property="og:title" content="Ashu Joshi — Video Editor" />
-  <meta property="og:description" content="Video Editor & Visual Storyteller — cinematic reels & short edits." />
+  <title>Ashu Joshi — AI Automations & Video Creator</title>
+  <meta name="description" content="Ashu Joshi — Helping businesses automate & scale: Chatbots, AI workflows, web-apps, plus video editing & reels." />
+  <meta property="og:title" content="Ashu Joshi — AI Automations & Video Creator" />
+  <meta property="og:description" content="Custom AI Chatbots • Workflow Automation (N8N) • AI Web Apps • Reels & Video Editing" />
   <meta property="og:image" content="assets/preview.jpg" />
   <meta property="og:url" content="https://ashujoshi.github.io/" />
+
   <link rel="icon" href="assets/favicon.png" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Poppins:wght@600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="page-bg"></div>
+  <div class="bg-animated" aria-hidden></div>
 
-  <header class="nav">
-    <div class="container nav-inner">
-      <div class="brand">
-        <div class="logo-mark" aria-hidden></div>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="brand" >
+        <div class="logo">AJ</div>
         <div class="brand-text">
-          <span class="name">Ashu Joshi</span>
-          <span class="role">Video Editor · Visual Storyteller</span>
+          <div class="brand-name">Ashu Joshi</div>
+          <div class="brand-sub">AI Automations · Video Editor</div>
         </div>
       </div>
 
-      <nav class="nav-links">
-        <a href="#works">Works</a>
+      <nav class="nav">
+        <a href="#work">Works</a>
+        <a href="#services">Services</a>
         <a href="#about">About</a>
-        <a href="#contact" class="btn-outline">Contact</a>
+        <a href="#contact" class="cta">Contact</a>
       </nav>
+      <button class="nav-toggle" aria-label="open menu">☰</button>
     </div>
   </header>
 
-  <main>
-    <!-- HERO -->
-    <section class="hero container" id="home">
-      <div class="hero-inner">
-        <div class="hero-left">
-          <h1 class="headline">
-            I turn raw clips into <span class="accent">cinematic stories</span>
-          </h1>
-          <p class="subhead">Video Editor · Reels Creator · CapCut & AI tools expert</p>
-          <div class="hero-cta">
-            <a href="#works" class="btn-primary">View Featured Works</a>
-            <a href="https://instagram.com/anshu._.joshii" target="_blank" rel="noopener" class="btn-ghost">Instagram</a>
-          </div>
-          <div class="kudos">
-            <span>Available for collabs & commissions</span>
-          </div>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-left">
+        <h1 class="hero-title">Helping businesses automate & scale<br><span class="accent">Chatbots · Workflows · AI Web Apps</span></h1>
+        <p class="hero-lead">I build AI agents, N8N flows, and web tools — plus create high-engagement video edits & reels for social growth.</p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#work">See Featured Reels</a>
+          <a class="btn ghost" href="#services">My Services</a>
         </div>
 
-        <div class="hero-right">
-          <div class="profile-card">
-            <img src="assets/avatar.jpg" alt="Ashu Joshi" class="avatar" />
-            <div class="profile-info">
-              <h3>Ashu Joshi</h3>
-              <p>Video Editor · Visual Storyteller</p>
-              <div class="profile-links">
-                <a href="mailto:ashujoshi1711@gmail.com">ashujoshi1711@gmail.com</a>
-                <a href="https://instagram.com/anshu._.joshii" target="_blank" rel="noopener">@anshu._.joshii</a>
-              </div>
-            </div>
-          </div>
-          <div class="hero-preview" aria-hidden>
-            <!-- Decorative preview — replace thumbs below in assets -->
-            <div class="preview-thumb" style="background-image:url('assets/thumb1.jpg')"></div>
-            <div class="preview-thumb" style="background-image:url('assets/thumb2.jpg')"></div>
+        <div class="hero-meta">
+          <div><strong>DM to collaborate</strong> on Instagram</div>
+          <div class="social-inline">
+            <a href="https://instagram.com/ashujoshi.ai" target="_blank" rel="noopener">@ashujoshi.ai</a>
+            <span>•</span>
+            <a href="https://instagram.com/anshu._.joshii" target="_blank" rel="noopener">@anshu._.joshii</a>
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- WORKS -->
-    <section id="works" class="section container">
-      <h2 class="section-title">Featured Works</h2>
-      <p class="section-sub">Select edits — click to open (Instagram / YouTube links)</p>
-
-      <div class="works-grid" id="worksGrid">
-        <!-- Card template: replace href and images with your real links -->
-        <article class="work-card">
-          <a href="https://www.instagram.com/p/REPLACE_LINK1/" target="_blank" rel="noopener">
-            <div class="thumb" style="background-image:url('assets/thumb1.jpg')"></div>
-            <div class="meta">
-              <h3>Reel — Energetic Cut</h3>
-              <p class="meta-sub">Transitions · Color grade · Beat sync</p>
+      <aside class="hero-right">
+        <!-- Reel carousel (vertical style thumbnails) -->
+        <div class="card glass hero-card">
+          <div class="profile">
+            <img src="assets/avatar.jpg" alt="Ashu" class="avatar" />
+            <div class="pinfo">
+              <div class="pname">Ashu Joshi</div>
+              <div class="prole">AI Automations · Video Editor</div>
             </div>
-          </a>
-        </article>
+          </div>
 
-        <article class="work-card">
-          <a href="https://www.youtube.com/watch?v=REPLACE_VIDEO_ID" target="_blank" rel="noopener">
-            <div class="thumb" style="background-image:url('assets/thumb2.jpg')"></div>
-            <div class="meta">
-              <h3>Short Edit — Cinematic</h3>
-              <p class="meta-sub">Cinematic LUT · Slow-mo · VFX touch</p>
-            </div>
-          </a>
-        </article>
+          <div class="reel-preview">
+            <!-- These are vertical (9:16) placeholders — replace with your reel thumbnails -->
+            <a class="reel" href="https://www.instagram.com/p/REPLACE1/" target="_blank" rel="noopener">
+              <img loading="lazy" src="assets/reel1.jpg" alt="reel 1">
+              <div class="reel-label">Reel — AI Automation Demo</div>
+            </a>
 
-        <article class="work-card">
-          <a href="https://www.instagram.com/p/REPLACE_LINK3/" target="_blank" rel="noopener">
-            <div class="thumb" style="background-image:url('assets/thumb3.jpg')"></div>
-            <div class="meta">
-              <h3>Reel — Viral Cut</h3>
-              <p class="meta-sub">Hook-first · Viral format</p>
-            </div>
-          </a>
-        </article>
+            <a class="reel" href="https://www.instagram.com/p/REPLACE2/" target="_blank" rel="noopener">
+              <img loading="lazy" src="assets/reel2.jpg" alt="reel 2">
+              <div class="reel-label">Reel — Web App Build</div>
+            </a>
+          </div>
 
-        <!-- Add more cards as needed -->
+          <div class="card-footer">
+            <a class="btn small" href="mailto:ashujoshi1711@gmail.com">Email: ashujoshi1711@gmail.com</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <div class="wrap">
+      <h2 class="section-title">Services I Offer</h2>
+      <p class="section-lead">From automation to content — full-stack solutions tailored for creators & businesses.</p>
+
+      <div class="cards">
+        <div class="service-card">
+          <div class="icon">🤖</div>
+          <h3>Custom AI Chatbots</h3>
+          <p>Chatbots for websites, WhatsApp, and FB — intent flows, knowledge base, & human handoff.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="icon">⚙️</div>
+          <h3>Workflow Automation (N8N)</h3>
+          <p>N8N flows to automate leads, emails, CRM sync, scheduling and business triggers.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="icon">🌐</div>
+          <h3>AI Web Apps</h3>
+          <p>Build AI-powered web tools, dashboards & microservices using Python, Node, or serverless stacks.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="icon">🎬</div>
+          <h3>Reels & Video Editing</h3>
+          <p>High-engagement reels, cinematic edits, thumbnails & captions — fast turnaround for creators.</p>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- ABOUT -->
-    <section id="about" class="section container">
-      <div class="about-grid">
-        <div class="about-text">
-          <h2 class="section-title">About Me</h2>
-          <p>I’m a passionate video editor focused on creating short-form content and cinematic edits that perform well on social platforms. I specialize in fast-paced cuts, smooth transitions, creative color grading, and using AI-assisted tools to speed up workflows while keeping the craft cinematic.</p>
-          <ul class="skills">
-            <li>CapCut · Premiere Pro </li>
-            <li>Transitions & quick cuts</li>
-            <li>Color grading & cinematic LUTs</li>
-            <li>AI tools for editing & motion effects</li>
+  <!-- WORK / REELS -->
+  <section id="work" class="section dark">
+    <div class="wrap">
+      <h2 class="section-title">Featured Reels & Projects</h2>
+      <p class="section-lead">Click any item to open the reel or project. Replace placeholders with your own thumbnails & links.</p>
+
+      <div class="reels-grid">
+        <!-- Reel card — vertical format 9:16; replace href and src -->
+        <article class="reel-card">
+          <a href="https://www.instagram.com/p/REPLACE1/" target="_blank" rel="noopener">
+            <div class="reel-thumb">
+              <img src="assets/reel1.jpg" alt="Reel 1">
+            </div>
+            <div class="reel-meta">
+              <h3>AI Agent — Demo</h3>
+              <p class="meta-sub">Chatbot demo + lead capture flow</p>
+            </div>
+          </a>
+        </article>
+
+        <article class="reel-card">
+          <a href="https://www.instagram.com/p/REPLACE2/" target="_blank" rel="noopener">
+            <div class="reel-thumb"><img src="assets/reel2.jpg" alt="Reel 2"></div>
+            <div class="reel-meta">
+              <h3>Web App Build</h3>
+              <p class="meta-sub">Full-stack AI tool prototype</p>
+            </div>
+          </a>
+        </article>
+
+        <article class="reel-card">
+          <a href="https://www.instagram.com/p/REPLACE3/" target="_blank" rel="noopener">
+            <div class="reel-thumb"><img src="assets/reel3.jpg" alt="Reel 3"></div>
+            <div class="reel-meta">
+              <h3>Viral Reel Edit</h3>
+              <p class="meta-sub">Reel edit: transitions & color grade</p>
+            </div>
+          </a>
+        </article>
+
+        <!-- Add more reel-cards as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="wrap about-grid">
+      <div class="about-left">
+        <h2 class="section-title">About Ashu</h2>
+        <p>I help businesses automate repetitive tasks, build intelligent chatbots, and launch AI-powered web apps — all while creating polished, high-performing video content for social platforms. I use N8N, Python, and practical AI tools to deliver fast, scalable solutions.</p>
+
+        <ul class="list">
+          <li><strong>Experience:</strong> Builder of chatbots, automation flows, and short-form video content.</li>
+          <li><strong>Tools:</strong> N8N, Python, Google Sheets, WhatsApp APIs, CapCut / Premiere basics.</li>
+          <li><strong>Delivery:</strong> Quick turnarounds, ready-to-post assets including thumbnails & captions.</li>
+        </ul>
+
+        <div class="about-cta">
+          <a class="btn primary" href="mailto:ashujoshi1711@gmail.com">Hire / Contact</a>
+          <a class="btn ghost" href="assets/portfolio.pdf" target="_blank">Download Portfolio</a>
+        </div>
+      </div>
+
+      <aside class="about-right">
+        <div class="card glass">
+          <h4>Recent Wins</h4>
+          <ul class="wins">
+            <li><strong>AI sales agent:</strong> Built for client, increased reach & generated leads.</li>
+            <li><strong>Reels growth:</strong> Multiple edits crossed 300+ organic views (case studies available).</li>
           </ul>
-          <div class="about-cta">
-            <a class="btn-primary" href="#contact">Hire / Collab</a>
-            <a class="btn-ghost" href="assets/portfolio.pdf" target="_blank">Download CV</a>
+          <div class="skill-bars">
+            <div class="bar"><span class="bar-name">Automation (N8N)</span><div class="bar-fill" style="--w:88%"></div></div>
+            <div class="bar"><span class="bar-name">AI / Python</span><div class="bar-fill" style="--w:74%"></div></div>
+            <div class="bar"><span class="bar-name">Video Editing</span><div class="bar-fill" style="--w:80%"></div></div>
           </div>
         </div>
+      </aside>
+    </div>
+  </section>
 
-        <div class="about-media">
-          <div class="card-glass">
-            <h4>What I deliver</h4>
-            <p>Fast turnaround, high engagement edits, and ready-to-post assets — thumbnails & captions included on request.</p>
-            <div class="metrics">
-              <div><strong>50+</strong><span>Edits</span></div>
-              <div><strong>10k+</strong><span>Reach (avg)</span></div>
-              <div><strong>3</strong><span>Special tools</span></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section container">
-      <h2 class="section-title">Contact</h2>
-      <p class="section-sub">Available for client work, collabs, and commissions. DM on Instagram or email me.</p>
+  <!-- CONTACT -->
+  <section id="contact" class="section dark">
+    <div class="wrap">
+      <h2 class="section-title">Contact & Collaborate</h2>
+      <p class="section-lead">Available for freelance projects, automation builds and content collabs.</p>
 
       <div class="contact-grid">
-        <div class="contact-card card-glass">
-          <h3>Get in touch</h3>
+        <div class="card glass contact-card">
+          <h3>Reach me</h3>
           <p>Email: <a href="mailto:ashujoshi1711@gmail.com">ashujoshi1711@gmail.com</a></p>
-          <p>Instagram: <a href="https://instagram.com/anshu._.joshii" target="_blank" rel="noopener">@anshu._.joshii</a></p>
-          <a class="btn-primary" href="mailto:ashujoshi1711@gmail.com">Email me</a>
+          <p>Instagram: <a href="https://instagram.com/ashujoshi.ai" target="_blank">@ashujoshi.ai</a></p>
+          <p>Creator profile: <a href="https://instagram.com/anshu._.joshii" target="_blank">@anshu._.joshii</a></p>
+          <div class="contact-actions">
+            <a class="btn primary" href="mailto:ashujoshi1711@gmail.com">Email me</a>
+            <button class="btn ghost" onclick="copyEmail()">Copy Email</button>
+          </div>
         </div>
 
-        <form class="contact-form card-glass" onsubmit="handleContact(event)">
-          <label><span>Name</span><input id="name" required placeholder="Your name" /></label>
-          <label><span>Message</span><textarea id="message" rows="4" required placeholder="Tell me about your project"></textarea></label>
+        <form class="card glass contact-form" onsubmit="handleContact(event)">
+          <label><span>Name</span><input id="name" required placeholder="Your name"></label>
+          <label><span>Project</span><textarea id="message" rows="4" required placeholder="Describe your project"></textarea></label>
           <div class="form-actions">
-            <button type="submit" class="btn-primary">Send Message</button>
-            <button type="button" class="btn-ghost" onclick="copyEmail()">Copy Email</button>
+            <button type="submit" class="btn primary">Send Email</button>
+            <button type="button" class="btn ghost" onclick="openIG()">Message on Instagram</button>
           </div>
-          <p class="form-note">This form opens your email client — or copy email to DM directly on Instagram.</p>
+          <p class="hint">Form opens your email client — you can also DM on Instagram for quick replies.</p>
         </form>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
 
-  <footer class="footer">
-    <div class="container footer-inner">
-      <p>© <span id="year"></span> Ashu Joshi · Designed with 💙 by Aaru</p>
-      <div class="social">
-        <a href="https://instagram.com/anshu._.joshii" target="_blank" rel="noopener">Instagram</a>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>© <span id="year"></span> Ashu Joshi</div>
+      <div class="socials">
+        <a href="https://instagram.com/ashujoshi.ai" target="_blank">@ashujoshi.ai</a>
+        <a href="https://instagram.com/anshu._.joshii" target="_blank">@anshu._.joshii</a>
       </div>
     </div>
   </footer>
